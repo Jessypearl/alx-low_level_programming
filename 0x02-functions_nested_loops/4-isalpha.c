@@ -5,13 +5,11 @@
  * Return: 1 if c is a letter, 0 otherwise
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 
 {
-	return (c >= 'a'; &&c <= 'z');
-       
-	else 
-		(c >= 'A'; &&c <= 'Z');
-	
-	return (0)
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 95))
+		return (1);
+	else
+		return (0);
 }
