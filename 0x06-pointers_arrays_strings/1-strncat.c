@@ -3,7 +3,7 @@
  * _strncat - concatenate two strings
  * using at most n bytes from scr
  * @dest: input value
- * @scr: input value
+ * @src: input value
  * @n: input value
  *
  * Return: dest
